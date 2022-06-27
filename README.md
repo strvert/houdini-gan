@@ -1,0 +1,2 @@
+# HOUDINI-GAN
+Pythonを使ったGAN系の生成モデルの勉強と、そのHoudiniでの利用検証をするリポジトリ
