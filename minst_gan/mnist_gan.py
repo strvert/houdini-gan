@@ -69,7 +69,7 @@ if __name__ == "__main__":
         override_epoch = load_epoch + 1
 
     transform = transforms.ToTensor()
-    dataset = datasets.MNIST(root="./mnist", train=True, download=True, transform=transform)
+    dataset = datasets.MNIST(root="./dataset/mnist", train=True, download=True, transform=transform)
 
     dataloader = DataLoader(dataset, batch_size=S, drop_last=True, num_workers=2, pin_memory=True)
 

@@ -1,5 +1,6 @@
-/mnist/
-/snapshots/
-/backup/
-/generated/
 /.idea/
+data/
+snapshots/
+generated/
+backup/
+dataset/
